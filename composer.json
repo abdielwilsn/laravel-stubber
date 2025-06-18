@@ -1,0 +1,25 @@
+{
+    "name": "stubber/stubber",
+    "description": "Laravel Stub generator",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Stubber\\Stubber\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Abdiel Wilson",
+            "email": "abdieljohnwilson@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Stubber\\Stubber\\StubberServiceProvider"
+            ]
+        }
+    }
+}
