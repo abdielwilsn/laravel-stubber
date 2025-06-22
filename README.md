@@ -30,7 +30,7 @@
 Add the package via Composer (if hosted on GitHub as `abdiel/laravel-stubber`):
 
 ```bash
-composer require abdiel/laravel-stubber
+composer require wilsn/laravel-stubber
 ```
 
 ---
