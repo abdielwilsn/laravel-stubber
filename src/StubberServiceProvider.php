@@ -3,7 +3,9 @@
 namespace Stubber\Stubber;
 
 use Illuminate\Support\ServiceProvider;
+use Stubber\Stubber\Console\MakeActionCommand;
 use Stubber\Stubber\Console\MakeServiceCommand;
+use Stubber\Stubber\Console\MakeVueComponentCommand;
 
 class StubberServiceProvider extends ServiceProvider
 {
@@ -22,6 +24,8 @@ class StubberServiceProvider extends ServiceProvider
 
             $this->commands([
                 MakeServiceCommand::class,
+                MakeActionCommand::class,
+                MakeVueComponentCommand::class,
             ]);
         }
     }

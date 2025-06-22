@@ -1,6 +1,7 @@
 {
     "name": "stubber/stubber",
     "description": "Laravel Stub generator",
+    "version": "dev-main",
     "type": "library",
     "license": "MIT",
     "autoload": {

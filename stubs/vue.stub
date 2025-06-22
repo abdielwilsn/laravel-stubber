@@ -1,0 +1,15 @@
+<template>
+  <div class="{{ name | kebab }}">
+    <!-- Component content -->
+  </div>
+</template>
+
+<script setup>
+// Setup for {{ name }}
+</script>
+
+<style scoped>
+.{{ name | kebab }} {
+  /* Component styles */
+}
+</style>
