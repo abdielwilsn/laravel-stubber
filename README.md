@@ -27,10 +27,12 @@
 
 ## 🚀 Installation
 
-Add the package via Composer (if hosted on GitHub as `abdiel/laravel-stubber`):
+Install laravel-stubber globally on your system by running:
+
+
 
 ```bash
-composer require wilsn/laravel-stubber
+composer global require wilsn/laravel-stubber:dev-main
 ```
 
 ---
