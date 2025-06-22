@@ -22,19 +22,13 @@ class MakeVueComponentCommand extends Command
             return Command::FAILURE;
         }
 
-        // Create directory if not exists
         File::ensureDirectoryExists(dirname($fullPath));
 
-        // Load stub
-//        if (!File::exists($stubPath)) {
-//            $stubPath = __DIR__ . '/../../stubs/action.stub';
-//        }
+
         $stub = file_get_contents(__DIR__ . '/../../stubs/vue.stub');
 
-        // Replace placeholders
         $stub = str_replace('{{ name }}', $componentName, $stub);
 
-        // Save file
         File::put($fullPath, $stub);
 
         $this->info("Vue component [{$name}] created at: {$fullPath}");
