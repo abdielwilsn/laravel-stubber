@@ -1,11 +1,11 @@
 # Laravel Stub Generator
 
+[![Latest Version on Packagist](https://img.shields.io/packagist/v/wilsn/laravel-stubber.svg?style=flat-square)](https://packagist.org/packages/wilsn/laravel-stubber)
+[![GitHub Tests](https://img.shields.io/github/actions/workflow/status/abdielwilsn/laravel-stubber/run-tests.yml?branch=main&label=tests)](https://github.com/abdielwilsn/laravel-stubber/actions)
+[![Total Downloads](https://img.shields.io/packagist/dt/wilsn/laravel-stubber.svg?style=flat-square)](https://packagist.org/packages/wilsn/laravel-stubber)
+[![License: MIT](https://img.shields.io/github/license/abdielwilsn/laravel-stubber.svg?style=flat-square)](LICENSE)
+[![Laravel](https://img.shields.io/badge/Laravel-10%20%7C%2011-red?style=flat-square&logo=laravel)](https://laravel.com)
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/abdiel/laravel-stubber.svg?style=flat-square)](https://packagist.org/packages/abdiel/laravel-stubber)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/abdielwilson/laravel-stubber/run-tests.yml?branch=main&label=tests)](https://github.com/abdielwilsn/laravel-stubber/actions)
-[![Total Downloads](https://img.shields.io/packagist/dt/abdiel/laravel-stubber.svg?style=flat-square)](https://packagist.org/packages/abdiel/laravel-stubber)
-[![License: MIT](https://img.shields.io/github/license/abdielwilson/laravel-stubber.svg?style=flat-square)](LICENSE)
-[![Laravel](https://img.shields.io/badge/laravel-10|11-red?style=flat-square&logo=laravel)](https://laravel.com)
 
 
 **Laravel Stub Generator** provides convenient custom Artisan commands that extend the default Laravel `make:` suite. It's designed to speed up development by generating commonly used files like services, actions, and Vue components from customizable stub templates.
