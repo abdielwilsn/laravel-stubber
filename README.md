@@ -33,23 +33,6 @@ Add the package via Composer (if hosted on GitHub as `abdiel/laravel-stubber`):
 composer require abdiel/laravel-stubber
 ```
 
-If you are developing locally, link it as a path repo:
-
-```json
-"repositories": [
-  {
-    "type": "path",
-    "url": "../laravel-stubber" // adjust path accordingly
-  }
-]
-```
-
-Then:
-
-```bash
-composer require abdiel/laravel-stubber:dev-main
-```
-
 ---
 
 
