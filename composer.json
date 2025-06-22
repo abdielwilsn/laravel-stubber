@@ -1,5 +1,5 @@
 {
-    "name": "stubber/stubber",
+    "name": "wilsn/laravel-stubber",
     "description": "Laravel Stub generator",
     "version": "dev-main",
     "type": "library",
